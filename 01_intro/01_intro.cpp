@@ -93,6 +93,11 @@ public:
 	{
 		return this->brand;
 	}
+	Car add(Car other)
+	{
+		Car res;
+		return res;
+	}
 	void print()
 	{
 		cout << "============= " << this->brand << " ================" << endl;
