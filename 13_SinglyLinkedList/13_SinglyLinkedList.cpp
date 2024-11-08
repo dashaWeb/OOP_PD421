@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include "FwdList.h"
 using namespace std;
 int main()
@@ -30,3 +30,7 @@ int main()
     list.print();
 }
 
+// 1. clear() - очищає всі елементи списку
+// 2. деструктор
+// 3. addTail(const T& data); - додавання вузла у кінець списку
+// 4. *** void removeTAil() - вилучення останнього вузла у списку
