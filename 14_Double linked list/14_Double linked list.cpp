@@ -25,3 +25,13 @@ int main()
 	list.printR();
 }
 
+
+/*
+
+List(const List<T>& other); // copy ctor
+List<T>& operator = (const List<T>& other)
+~List();
+void clear();
+void addTail(const T& data);
+void removeTail();
+*/
