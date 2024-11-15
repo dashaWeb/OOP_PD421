@@ -10,7 +10,7 @@ void Wolf::print() const
 }
 
 Wolf::Wolf(const string& place, const size_t& age, const size_t& weight)
-	:Animal(place,age), weight(weight)
+	:Animal(place, age), weight(weight)
 {
 	cout << "\t >>>>>>>>>>>>> Ctor Wolf ID #" << id << endl;
 }
