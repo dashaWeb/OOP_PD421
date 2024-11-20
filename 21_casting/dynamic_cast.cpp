@@ -44,7 +44,7 @@ int main()
 	{
 		i->print();
 		s = dynamic_cast<Student*>(i);
-		//if (s != nullptr)
+		if (s != nullptr)
 			s->learn();
 		a = dynamic_cast<Aspirant*>(i);
 		if (a != nullptr)
