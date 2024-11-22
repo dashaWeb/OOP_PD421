@@ -46,11 +46,7 @@ int main()
     circle.setRadius(10);
     cout << "Area :: " << circle.area() << endl;
 
-    const char* test = new char [4]{'h','e','l','\0'};
-    auto r = const_cast<char*>(test);
-    cout << r << endl;
-    r[0] = 'a';
-    cout << r << endl;
+    
 }
 
 
