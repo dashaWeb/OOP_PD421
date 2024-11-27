@@ -80,6 +80,7 @@ int main()
 	d.resize(vec.size(), -1);
 	print(d, "Deque (copy 1-st hala of vector) ");
 	copy(vec.rbegin(), vec.rend() - vec.size() / 2, d.begin() + d.size() / 2);
+	//copy_if()
 	print(d, "Deque (copy 2-nd of vector) ");
 
 	d.push_back(10);
